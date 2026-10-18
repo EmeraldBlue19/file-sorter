@@ -1,0 +1,50 @@
+{
+    "name":  "file-sorter",
+    "logo":  "📂",
+    "exe":  "FileSorter.exe",
+    "desc":  "Free, open-source AI file organizer for Windows — sorts downloads by content, not extension, with undo. 100 MB portable, offline, MIT.",
+    "topics":  [
+                   "file-organizer",
+                   "auto-sort",
+                   "content-classification",
+                   "local-ai",
+                   "downloads-folder",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "rules",
+                   "watch-folder",
+                   "undo-journal",
+                   "embeddings",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Content-aware sorting** — a scanned invoice goes to Finance even though it is named scan_0042.pdf",
+                     "✅ **Rule builder with preview** — lay out conditions and see where the current pile would land before starting",
+                     "✅ **Watch folders** — the Downloads folder tidied minutes after files stop growing",
+                     "✅ **Review queue** — low-confidence files wait for one-click confirmation instead of guessing",
+                     "✅ **Undo journal** — one action reverts the last sorting run, file by file, paths restored",
+                     "✅ **Tag sidecars** — optional tag files written next to documents for other tools to read",
+                     "✅ **100 MB self-contained exe** — runtime bundled, tiny classifier downloaded separately, offline after that, MIT"
+                 ],
+    "compare":  [
+                    "| Feature | **file-sorter** | DropIt | Hazel | Manual sorting |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free | Paid, Mac only | Free, endless",
+                    "| Open source | **Yes** | Yes | No | N/A",
+                    "| Reads file content to decide | **Yes** | No | Partial | You do",
+                    "| Review queue for low confidence | **Yes** | No | No | N/A",
+                    "| Undo journal | **Yes** | No | Partial | No",
+                    "| Portable, no install | **Yes, 100 MB** | Portable | Mac only | N/A"
+                ],
+    "faqQ":  "automatically organize my downloads folder by file content on Windows?",
+    "faqA":  "Rule tools match filenames, which fails the moment a bank statement is called download-34.pdf. file-sorter reads the content, proposes a destination, queues uncertain files for review and logs everything for one-click undo. It is a 100 MB portable exe, MIT, offline, and it never runs without a preview.",
+    "s1":  "Dark sorter (#121418, sky #0EA5E9): downloads pile with 42 files, proposed destination tags per item, Tidy button glowing, confidence note on three uncertain rows.",
+    "s2":  "Rule builder: condition row reading content contains invoice leads to Finance slash 2026, drag handles, live preview list of affected files.",
+    "s3":  "Undo journal: last run with 42 moves listed, per-file restore checkboxes, restore all button, timestamps and original paths in the table."
+}
